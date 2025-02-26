@@ -1,0 +1,25 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 360px;
+  background-color: rgba(211, 211, 211, 0.746);
+}
+.card-container{
+  display: flexbox;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  color: red;
+  margin: 0 0 0 0;
+}
+button {
+  background-color: black;
+  color: lightpink;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: auto;
+}
